@@ -65,7 +65,7 @@ while True:
 
     # 将读数显示到控制台
     oled.fill(0)
-    msg1 = f"cur_price: {current_price} "
+    msg1 = f"CP: {current_price} "
     msg2 = f"FP: {future_price}"
     
     print(msg1)
